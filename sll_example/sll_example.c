@@ -35,7 +35,7 @@ int main()
   second->next = third;
 
   third->data = 3; // assign data to third node
-  third->next = NULL;
+  third->next = NULL; //Set pointer to NULL to stop the loop. Setting a pointer to NULL assigns it to memory-adress 0.
 
   printList(head);
 
